@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Bureaublad/Herexamen"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Classes"
+	}
+}
