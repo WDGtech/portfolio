@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project 2 - Beveiligingscamera</title>
+    <title>Slagboom Opstelling met ESP32</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -43,80 +43,101 @@
     </nav>
 
     <div class="container my-5">
-      <h1 class="text-center mb-4">Project 2: Beveiligingscamera</h1>
+      <h1 class="text-center mb-4">Project 3: Slagboom Opstelling met ESP32</h1>
       <img
-        src="assets/images/sfeerbeeld10.jpg"
+        src="assets/images/sfeerbeeld12.jpg"
         class="img-fluid mb-4"
-        alt="Beveiligingscamera"
+        alt="Slagboom ESP32"
         style="max-width: 40%"
       />
 
       <h3>Gebruikte Technologieën:</h3>
       <ul>
-        <li>Kali Linux</li>
-        <li>Nmap</li>
-        <li>Wireshark</li>
-        <li>Whois</li>
+        <li>ESP32 Microcontroller</li>
+        <li>Arduino IDE</li>
+        <li>Drukknop</li>
+        <li>Servomotor</li>
+        <li>Twee rode LEDs</li>
+        <li>Eén gele LED</li>
+        <li>Laptop voor programmeren en testen</li>
+        <li>Breadboard en jumpers voor circuitopbouw</li>
       </ul>
 
       <h3>Skills:</h3>
       <ul>
         <li>
-          Netwerkbeveiliging: Gebruik van tools zoals Nmap en Wireshark om
-          netwerkverkeer te analyseren en kwetsbaarheden te identificeren.
+          Hardware-integratie: Correct aansluiten van ESP32, LEDs, drukknop en
+          servomotor.
         </li>
         <li>
-          Cryptografie: Pogingen om versleutelde data te begrijpen en te
-          decrypteren.
+          Programmeren: Code schrijven in Arduino IDE met bibliotheken voor de
+          servomotor en LED aansturing.
         </li>
+        <li>Probleemoplossing: Debuggen van hardware en softwareproblemen.</li>
         <li>
-          Probleemoplossing: Oplossen van toegangsfouten door firewalls en
-          andere beveiligingsmechanismen.
-        </li>
-        <li>
-          Onderzoek en documentatie: Gedetailleerd documenteren van bevindingen
-          en processen.
+          Samenwerking: Duidelijke documentatie en teamwork voor succesvolle
+          uitvoering.
         </li>
       </ul>
 
       <h3>Uitdagingen:</h3>
       <ul>
+        <li>Correcte configuratie van GPIO pinnen op de ESP32.</li>
         <li>
-          Omzeilen van geavanceerde beveiligingsmechanismen zoals firewalls die
-          toegang blokkeerden.
+          Synchronisatie van knipperende LEDs en beweging van de servomotor.
         </li>
         <li>
-          Het analyseren van versleutelde data, zoals de opgeslagen beelden van
-          de beveiligingscamera.
+          Debuggen van instabiliteiten in het breadboardcircuit door losse
+          verbindingen.
         </li>
         <li>
-          Complexiteit van het opzetten van een veilige testomgeving met Kali
-          Linux en andere tools.
-        </li>
-        <li>
-          Tijdmanagement: Balanceren tussen dit project en andere prioriteiten.
+          Aanpassen van Arduino Nano code naar ESP32, inclusief pinmapping.
         </li>
       </ul>
 
       <h3>Resultaat:</h3>
       <p>
-        Het project bood waardevolle inzichten in netwerkbeveiliging en het
-        testen van kwetsbaarheden. Hoewel het niet lukte om de versleutelde
-        beelden volledig te decrypteren, is het wel gelukt om toegang te krijgen
-        tot de beveiligingscamera. Dit heeft geleid tot een beter begrip van de
-        beveiligingsmethoden en het gebruik van tools zoals Wireshark en Nmap.
-        Het project werd uitgevoerd op een zelf gekochte beveiligingscamera in
-        een gecontroleerde omgeving.
+        Het project is succesvol afgerond en alle vereisten zijn behaald. De
+        slagboom functioneert perfect:
       </p>
-
-      <h3>Bestanden om te downloaden:</h3>
+      <ul>
+        <li>
+          Drukknop bestuurt de servomotor soepel tussen open en gesloten
+          posities.
+        </li>
+        <li>
+          Rode LEDs knipperen afwisselend wanneer de slagboom gesloten is, met
+          een interval van 500ms.
+        </li>
+        <li>
+          Gele LED knippert wanneer de slagboom geopend is, met een interval van
+          500ms.
+        </li>
+        <li>
+          Circuit is stabiel en functioneert consistent zonder
+          verbindingsproblemen.
+        </li>
+        <li>
+          Code in Arduino IDE is goed gestructureerd, herbruikbaar en
+          overzichtelijk.
+        </li>
+      </ul>
+      <h3>Download Bestanden:</h3>
       <ul>
         <li>
           <a
-            href="assets/uploads/_NW_Project_Wissam.pdf"
+            href="assets/uploads/1IT8-3-Overweg-ESP32 (1).zip"
             class="btn btn-outline-light mb-2"
             download
-            >Documentatie</a
+            >Download Slagboom-Overweg Bestand (1IT8-3)</a
+          >
+        </li>
+        <li>
+          <a
+            href="assets/uploads/1IT8-3-kruispunt-ESP32 (1).zip"
+            class="btn btn-outline-light mb-2"
+            download
+            >Download Kruispunt Bestand (1IT8-3)</a
           >
         </li>
       </ul>
@@ -128,7 +149,7 @@
         href="https://openai.com/dall-e"
         target="_blank"
         rel="noopener noreferrer"
-        >DALL·E</a
+        >dall-e</a
       >
     </footer>
 
