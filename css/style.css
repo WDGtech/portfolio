@@ -136,7 +136,7 @@ footer p {
     .navbar-nav .nav-link {
         font-size: 0.9rem;
     }
-      .social-icons a {
+    .social-icons a {
         font-size: 1rem; 
         margin-bottom: 10px; 
       }
@@ -144,4 +144,6 @@ footer p {
     .social-icons .col-4 {
         margin-bottom: 15px; 
      }
+      
+      
 }
